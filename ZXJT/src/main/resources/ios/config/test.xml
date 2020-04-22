@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MobileSuite">
+	<listeners>
+		<listener class-name="mobile.zxjt.testng.Listener" />
+		<listener class-name="mobile.zxjt.testng.Controller" />
+	</listeners>
+
+	<test name="MobileTest_Agu" enabled="false">
+		<classes>
+			<class name="mobile.zxjt.test.gp.TestYZZZ" />
+			<class name="mobile.zxjt.test.gp.TestZFHZ" />
+			<class name="mobile.zxjt.test.gp.TestYJGJ" />
+			<!-- <class name="mobile.zxjt.test.gp.TestZCCX" /> -->
+			<class name="mobile.zxjt.test.gp.TestGPMR" />
+			<class name="mobile.zxjt.test.gp.TestGPMC" />
+
+			<class name="mobile.zxjt.test.jj.TestJJSG" />
+			<class name="mobile.zxjt.test.jj.TestJJSH" />
+			<class name="mobile.zxjt.test.jj.TestJJRG" />
+			<class name="mobile.zxjt.test.jj.TestJJDT" />
+			<class name="mobile.zxjt.test.jj.TestJJDS" />
+			<class name="mobile.zxjt.test.jj.TestJJZH" />
+			<class name="mobile.zxjt.test.jj.TestJJFHSZ" />
+
+<!-- 			<class name="mobile.zxjt.test.ggt.TestHKMR" />
+			<class name="mobile.zxjt.test.ggt.TestHKZCCX" />
+			<class name="mobile.zxjt.test.ggt.TestHKHZZJ" />
+			<class name="mobile.zxjt.test.ggt.TestHKFZCX" />
+			<class name="mobile.zxjt.test.ggt.TestHKEDCX" />
+			<class name="mobile.zxjt.test.ggt.TestHKWJSMXCX" /> -->
+
+			<class name="mobile.zxjt.test.etf.TestETFWXXJRG" />
+			<class name="mobile.zxjt.test.etf.TestETFWXGPRG" />
+			<class name="mobile.zxjt.test.etf.TestETFSG" />
+			<class name="mobile.zxjt.test.etf.TestETFSH" />
+
+			<class name="mobile.zxjt.test.lof.TestLOFSG" />
+			<class name="mobile.zxjt.test.lof.TestLOFSH" />
+			<class name="mobile.zxjt.test.lof.TestLOFRG" />
+
+<!-- 			<class name="mobile.zxjt.test.gz.TestDJMR" />
+			<class name="mobile.zxjt.test.gz.TestDJMC" />
+			<class name="mobile.zxjt.test.gz.TestZSMR" />
+			<class name="mobile.zxjt.test.gz.TestZSMC" />
+			<class name="mobile.zxjt.test.gz.TestXJMR" />
+			<class name="mobile.zxjt.test.gz.TestXJMC" /> -->
+		</classes>
+	</test>
+	
+	<test name="MobileTest_RZRQ" enabled="true">
+		<classes>
+
+			<!-- <class name="mobile.zxjt.test.rzrq.TestRRZCCX" /> -->
+			<class name="mobile.zxjt.test.rzrq.TestRZMR" />
+			<!-- <class name="mobile.zxjt.test.rzrq.TestRQMC" />
+			<class name="mobile.zxjt.test.rzrq.TestDBPMR" />
+			<class name="mobile.zxjt.test.rzrq.TestDBPMC" />
+			<class name="mobile.zxjt.test.rzrq.TestDBPHZ" />
+			<class name="mobile.zxjt.test.rzrq.TestHK" />
+			<class name="mobile.zxjt.test.rzrq.TestHQ" />
+			<class name="mobile.zxjt.test.rzrq.TestRRYZZZ" /> -->
+		</classes>
+	</test>
+	
+</suite>

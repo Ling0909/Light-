@@ -1,0 +1,20 @@
+{
+	"oBtnBack": {
+		"context": "NATIVE_APP",
+		"bys": [
+			"xpath:////UIAButton[@name='navigationBack White' and preceding-sibling::*[@name='Back']]"
+		]
+	},
+	"oImgInit": {
+		"context": "NATIVE_APP",
+		"bys": [
+			"xpath:////UIAApplication[1]/UIAWindow[1]/UIAImage[@name = '']"
+		]
+	},
+	"oBtnMsg": {
+		"context": "NATIVE_APP",
+		"bys": [
+			"xpath:////UIAButton[@name='知道了']"
+		]
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"oViewKeyboard": {
+		"context": "NATIVE_APP",
+		"bys": [
+			"id://abs__keyboard_input_view"
+		]
+	}
+}

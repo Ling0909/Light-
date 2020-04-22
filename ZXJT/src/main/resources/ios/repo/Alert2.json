@@ -1,0 +1,26 @@
+{
+	"oTextMsg": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div#success div.kmc-alertDialog-content label"
+		]
+	},
+	"oBtnOK": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div#success div.kmc-alertDialog-button td.ok>button"
+		]
+	},
+	"oTextFailMsg": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://td.info"
+		]
+	},
+	"oBtnFailOK": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://button.btn-red.close"
+		]
+	}
+}

@@ -1,0 +1,68 @@
+{
+	"oLableGFZR": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='股份转让']"
+		]
+	},
+	"oLabelDJMR": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='定价买入']"
+		]
+	},
+	"oLabelDJMC": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='定价卖出']"
+		]
+	},
+	"oLabelCJQRMR": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='成交确认买入']"
+		]
+	},
+	"oLabelCJQRMC": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='成交确认卖出']"
+		]
+	},
+	"oLabelHBQRMR": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='互报确认买入']"
+		]
+	},
+	"oLabelHBQRMC": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='互报确认卖出']"
+		]
+	},
+	"oLabelZSMR": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='做市买入']"
+		]
+	},
+	"oLabelZSMC": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='做市卖出']"
+		]
+	},
+	"oLabelXJMR": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='限价买入']"
+		]
+	},
+	"oLabelXJMC": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='限价卖出']"
+		]
+	}
+}

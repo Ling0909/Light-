@@ -1,0 +1,74 @@
+{
+	"oLabelKFSJJ": {
+		"context": "WEBVIEW[url.pattern(.+ptjy_(header|index).html)]",
+		"bys": [
+			"xpath:////label[text()='开放式基金']"
+		]
+	},
+	"oLabelSG": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='申购']"
+		]
+	},
+	"oLabelSH": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='赎回']"
+		]
+	},
+	"oLabelRG": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='认购']"
+		]
+	},
+	"oLabelJJDT": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='基金定投']"
+		]
+	},
+	"oLabelJJZH": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='基金转换']"
+		]
+	},
+	"oLabelFHSZ": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='分红设置']"
+		]
+	},
+	"oLabelETFJJ": {
+		"context": "WEBVIEW[url.pattern(.+ptjy_(header|index).html)]",
+		"bys": [
+			"xpath:////label[text()='ETF基金']"
+		]
+	},
+	"oLabelWXXJRG": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='网下现金认购']"
+		]
+	},
+	"oLabelWXGPRG": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='网下股票认购']"
+		]
+	},
+	"oLabelETFSG": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='ETF申购']"
+		]
+	},
+	"oLabelETFSH": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='ETF赎回']"
+		]
+	}
+}

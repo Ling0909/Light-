@@ -1,0 +1,26 @@
+{
+	"oEditCode": {
+		"context": "NATIVE_APP",
+		"bys": [
+			"id://edt_search"
+		]
+	},
+	"oTextCode": {
+		"context": "NATIVE_APP",
+		"bys": [
+			"id://txt_stockCode"
+		]
+	},
+	"oTextItem": {
+		"context": "NATIVE_APP",
+		"bys": [
+			"UIAUTOMATOR://new UiSelector().text(\"$\")"
+		]
+	},
+	"oTextCancel": {
+		"context": "NATIVE_APP",
+		"bys": [
+			"id://txt_search_cancle"
+		]
+	}
+}

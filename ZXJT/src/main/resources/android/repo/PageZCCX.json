@@ -1,0 +1,26 @@
+{
+	"oSpanKQ": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath://(//span[@class='zjkqs'])[$]"
+		]
+	},
+	"oSpanKY": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath://(//span[@class='zjkys'])[$]"
+		]
+	},
+	"oSpanYE": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath://(//span[@class='zjye'])[$]"
+		]
+	},
+	"oSpanCurrency": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////span[text()='$']"
+		]
+	}
+}

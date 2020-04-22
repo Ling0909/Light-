@@ -1,0 +1,56 @@
+{
+	"oBtnTitle": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////div[@id='HuanKuanType']/button[text()='$']"
+		]
+	},
+	"oInputCode": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://zqdm"
+		]
+	},
+	"oPName": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://zqmc"
+		]
+	},
+	"oInputNum": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://volume"
+		]
+	},
+	"oBtnOK": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div.tab-page.active div.btn-bargain>button"
+		]
+	},
+	"oInputPrice": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://price"
+		]
+	},
+	"oInputHKJE": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://hkje"
+		]
+	},
+	"oTdKHZJ": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://zjkys"
+		]
+	},
+	"oTdXHKE": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://zfzjehj"
+		]
+	}
+}

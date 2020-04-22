@@ -1,0 +1,158 @@
+{
+	"TestZCCX_enterZCCX": "进入资产查询",
+	"TestZCCX_testZCCX": "资产查询",
+
+	"TestGPMR_enterGPMR": "进入股票买入",
+	"TestGPMR_testGPMR": "股票买入",
+	"TestGPMR_testGPMR_FL_Price": "股票买入反例",
+	"TestGPMR_testGPMR_FL_Number": "股票买入反例",
+	"TestGPMR_testGPMR_FL_Code": "股票买入反例",
+
+	"TestGPMC_enterGPMC": "进入股票卖出",
+	"TestGPMC_testGPMC": "股票卖出",
+	"TestGPMC_testGPMC_FL_Number": "股票卖出反例",
+	"TestGPMC_testGPMC_FL_Code": "股票卖出反例",
+
+	"TestYZZZ_enterYZZZ": "进入银证转账",
+	"TestYZZZ_testYZZZ": "银证转账",
+
+	"TestZFHZ_enterZFHZ": "进入主辅划转",
+	"TestZFHZ_testZFHZ": "主辅划转",
+	"TestZFHZ_leaveZFHZ": "离开主辅划转",
+
+	"TestYJGJ_enterYJGJ": "进入一键归集",
+	"TestYJGJ_testYJGJ": "一键归集",
+
+	"TestJJSG_enterSG": "进入基金申购",
+	"TestJJSG_testSG": "基金申购",
+
+	"TestJJSH_enterSH": "进入基金赎回",
+	"TestJJSH_testSH": "基金赎回",
+
+	"TestJJRG_enterRG": "进入基金认购",
+	"TestJJRG_testRG": "基金认购",
+
+	"TestJJDT_enterJJDT": "进入基金定投",
+	"TestJJDT_leaveJJDT": "离开基金定投",
+	"TestJJDT_testJJDT": "基金定投",
+
+	"TestJJDS_enterJJDS": "进入基金定赎",
+	"TestJJDS_leaveJJDS": "离开基金定赎",
+	"TestJJDS_testJJDS": "基金定赎",
+
+	"TestJJZH_enterJJZH": "进入基金转换",
+	"TestJJZH_testJJZH": "基金转换",
+
+	"TestJJFHSZ_enterFHSZ": "进入基金分红设置",
+	"TestJJFHSZ_testFHSZ": "基金分红设置",
+
+	"TestHKZCCX_enterHKZCCX": "进入港股通资产查询",
+	"TestHKZCCX_testHKZCCX": "港股通资产查询",
+
+	"TestHKMR_enterHKMR": "进入港股通买入",
+	"TestHKMR_testHKMR": "港股通买入",
+
+	"TestHKMC_enterHKMC": "进入港股通卖出",
+	"TestHKMC_testHKMC": "港股通卖出",
+
+	"TestHKHZZJ_enterHKHZZJ": "进入港股通回转资金",
+	"TestHKHZZJ_testHKHZZJ": "港股通回转资金",
+
+	"TestHKFZCX_enterHKFZCX": "进入港股通负债查询",
+	"TestHKFZCX_testHKFZCX": "港股通负债查询",
+
+	"TestHKEDCX_enterHKEDCX": "进入港股通额度查询",
+	"TestHKEDCX_testHKEDCX": "港股通额度查询",
+
+	"TestHKWJSMXCX_enterHKWJSMXCX": "进入港股通未交收明细查询",
+	"TestHKWJSMXCX_testHKWJSMXCX": "港股通未交收明细查询",
+
+	"TestETFWXXJRG_enterETFWXXJRG": "进入ETF网下现金认购",
+	"TestETFWXXJRG_testETFWXXJRG": "ETF网下现金认购",
+
+	"TestETFWXGPRG_enterETFWXGPRG": "进入ETF网下股票认购",
+	"TestETFWXGPRG_testETFWXGPRG": "ETF网下股票认购",
+
+	"TestETFSG_enterETFSG": "进入ETF申购",
+	"TestETFSG_testETFSG": "ETF申购",
+	"TestETFSG_testETFSG_FL_Number": "ETF申购反例",
+	"TestETFSG_testETFSG_FL_Code": "ETF申购反例",
+
+	"TestETFSH_enterETFSH": "进入ETF赎回",
+	"TestETFSH_testETFSH": "ETF赎回",
+	"TestETFSH_testETFSH_FL": "ETF赎回反例",
+
+	"TestLOFSG_enterLOFSG": "进入LOF申购",
+	"TestLOFSG_testLOFSG": "LOF申购",
+
+	"TestLOFSH_enterLOFSH": "进入LOF赎回",
+	"TestLOFSH_testLOFSH": "LOF赎回",
+
+	"TestLOFRG_enterLOFRG": "进入LOF认购",
+	"TestLOFRG_testLOFRG": "LOF认购",
+
+	"TestDJMR_enterDJMR": "进入定价买入",
+	"TestDJMR_testDJMR": "定价买入",
+
+	"TestDJMC_enterDJMC": "进入定价卖出",
+	"TestDJMC_testDJMC": "定价卖出",
+
+	"TestCJQRMR_enterCJQRMR": "进入成交确认买入",
+	"TestCJQRMR_testCJQRMR": "成交确认买入",
+
+	"TestCJQRMC_enterCJQRMC": "进入成交确认卖出",
+	"TestCJQRMC_testCJQRMC": "成交确认卖出",
+
+	"TestHBQRMR_enterHBQRMR": "进入互报确认买入",
+	"TestHBQRMR_testHBQRMR": "互报确认买入",
+
+	"TestHBQRMC_enterHBQRMC": "进入互报确认卖出",
+	"TestHBQRMC_testHBQRMC": "互报确认卖出",
+
+	"TestZSMR_enterZSMR": "进入做市买入",
+	"TestZSMR_testZSMR": "做市买入",
+
+	"TestZSMC_enterZSMC": "进入做市卖出",
+	"TestZSMC_testZSMC": "做市卖出",
+
+	"TestXJMR_enterXJMR": "进入限价买入",
+	"TestXJMR_testXJMR": "限价买入",
+
+	"TestXJMC_enterXJMC": "进入限价卖出",
+	"TestXJMC_testXJMC": "限价卖出",
+
+	"TestRRZCCX_enterRRZCCX": "进入融资融券资产查询",
+	"TestRRZCCX_testRRZCCX": "融资融券资产查询",
+
+	"TestRZMR_enterRZMR": "进入融资买入",
+	"TestRZMR_testRZMR": "融资买入",
+	"TestRZMR_testRZMR_FL_Code": "融资买入反例",
+	"TestRZMR_testRZMR_FL_Price": "融资买入反例",
+
+	"TestRQMC_enterRQMC": "进入融券卖出",
+	"TestRQMC_testRQMC": "融券卖出",
+	"TestRQMC_testRQMC_FL_Code": "融券卖出反例",
+	"TestRQMC_testRQMC_FL_Price": "融券卖出反例",
+
+	"TestDBPMR_enterDBPMR": "进入担保品买入",
+	"TestDBPMR_testDBPMR": "担保品买入",
+	"TestDBPMR_testDBPMR_FL_Code": "担保品买入反例",
+	"TestDBPMR_testDBPMR_FL_Price": "担保品买入反例",
+
+	"TestDBPMC_enterDBPMC": "进入担保品卖出",
+	"TestDBPMC_testDBPMC": "担保品卖出",
+	"TestDBPMC_testDBPMC_FL_Price": "担保品卖出反例",
+	"TestDBPMC_testDBPMC_FL_Hold": "担保品卖出反例",
+
+	"TestDBPHZ_enterDBPHZ": "进入担保品划转",
+	"TestDBPHZ_testDBPHZ": "担保品划转",
+
+	"TestHK_enterHK": "进入还款",
+	"TestHK_testHK": "还款",
+
+	"TestHQ_enterHQ": "进入还券",
+	"TestHQ_testHQ": "还券",
+
+	"TestRRYZZZ_enterRRYZZZ": "进入融资融券银证转账",
+	"TestRRYZZZ_testRRYZZZ": "融资融券银证转账"
+}

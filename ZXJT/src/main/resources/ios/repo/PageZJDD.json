@@ -1,0 +1,32 @@
+{
+	"oBtnZJDD": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////button[text()='资金调度']"
+		]
+	},
+	"oBtnDB": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////dd[contains(text(), '$')]/following-sibling::dd[1]/em"
+		]
+	},
+	"oBtnYJGJ": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////em[text()='一键归集']"
+		]
+	},
+	"oDdZJE": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath://(//div[@class='line yjgjOut'])[1]//dd[2]"
+		]
+	},
+	"oDdFJE": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath://(//div[@class='line yhk'])[1]//dd[2]"
+		]
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"oBtnTitle": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////div[@id='HuanQuanType']/button[text()='$']"
+		]
+	},
+	"oInputCode": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div.tab-page.active div.stkcode>input"
+		]
+	},
+	"oPName": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div.tab-page.active div.stkcode>p"
+		]
+	},
+	"oInputNum": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div.tab-page.active input[id$='volume']"
+		]
+	},
+	"oBtnOK": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div.tab-page.active button.btn.btn-buy"
+		]
+	},
+	"oInputPrice": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://price"
+		]
+	}
+}

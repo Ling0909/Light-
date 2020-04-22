@@ -1,0 +1,32 @@
+{
+	"oInputCode": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://input[id^=zqdm-input-]"
+		]
+	},
+	"oPName": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://p.kmc-zqdm-zqmc"
+		]
+	},
+	"oInputPrice": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://wtjg-input"
+		]
+	},
+	"oInputNum": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://kmmsl-input"
+		]
+	},
+	"oBtnOK": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div.kmc-submit-button>button"
+		]
+	}
+}

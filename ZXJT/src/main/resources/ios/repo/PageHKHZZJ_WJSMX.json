@@ -1,0 +1,14 @@
+{
+	"oPs1": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////table[@class='kmc-superTable-row'][1]//p"
+		]
+	},
+	"oPs2": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////table[@class='kmc-superTable-row'][2]//p"
+		]
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"oBtnPT2XY": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////div[@id='DBPHZType']/button[1]"
+		]
+	},
+	"oBtnXY2PT": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////div[@id='DBPHZType']/button[2]"
+		]
+	},
+	"oInputCode": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://zqdm"
+		]
+	},
+	"oLabelName": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://zqmc"
+		]
+	},
+	"oInputNum": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://volume"
+		]
+	},
+	"oBtnOK": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://button.btn.btn-buy"
+		]
+	}
+}

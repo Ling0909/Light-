@@ -1,0 +1,38 @@
+{
+	"oBtnYZZ": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////body/div[1]/button[1]"
+		]
+	},
+	"oBtnZZY": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////body/div[1]/button[2]"
+		]
+	},
+	"oInputNum": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://amount"
+		]
+	},
+	"oInputYHMM": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://yhmm"
+		]
+	},
+	"oInputZJMM": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://zjmm"
+		]
+	},
+	"oBtnOK": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://button.btn.btn-red"
+		]
+	}
+}

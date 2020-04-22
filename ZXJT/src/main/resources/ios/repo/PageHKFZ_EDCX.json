@@ -1,0 +1,14 @@
+{
+	"oLabelHGT": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath://(//td[2])[position()>1]/label"
+		]
+	},
+	"oLabelSGT": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath://(//td[3])[position()>1]/label"
+		]
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"oBtnSY": {
+		"context": "NATIVE_APP",
+		"bys": [
+			"UIAUTOMATOR://new UiSelector().className(\"android.widget.TextView\").text(\"首页\")"
+		]
+	},
+	"oBtnJY": {
+		"context": "NATIVE_APP",
+		"bys": [
+			"UIAUTOMATOR://new UiSelector().className(\"android.widget.TextView\").text(\"交易\")"
+		]
+	},
+	"oBtnPTJY": {
+		"context": "NATIVE_APP",
+		"bys": [
+			"id://left_text"
+		]
+	},
+	"oImgMR": {
+		"context": "WEBVIEW[url.pattern(.+ptjy_(header|index).html)]",
+		"bys": [
+			"id://btn_purchase"
+		]
+	},
+	"oImgMC": {
+		"context": "WEBVIEW[url.pattern(.+ptjy_(header|index).html)]",
+		"bys": [
+			"id://btn_sell"
+		]
+	},
+	"oLabelYZZZ": {
+		"context": "WEBVIEW[url.pattern(.+ptjy_(header|index).html)]",
+		"bys": [
+			"xpath:////label[text()='银证转账']"
+		]
+	},
+	"oImgGD": {
+		"context": "WEBVIEW[url.pattern(.+ptjy_(header|index).html)]",
+		"bys": [
+			"xpath://(//img[@id='btn_cancel'])[last()]"
+		]
+	},
+	"oLabelZCCX": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='资产查询']"
+		]
+	}
+}

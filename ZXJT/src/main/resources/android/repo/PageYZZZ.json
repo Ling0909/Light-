@@ -1,0 +1,44 @@
+{
+	"oBtnTitle": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////div[@class='pyjyNav']/div/button[text()='$']"
+		]
+	},
+	"oInputBank": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://em.zryhzxjt"
+		]
+	},
+	"oLabelBank": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////div[@class='divselect dis']//label[text()='$']"
+		]
+	},
+	"oInputZZJE": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://amount"
+		]
+	},
+	"oInputYHMM": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////input[@id='yhmms' or @id='yhmm']"
+		]
+	},
+	"oInputZJMM": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////input[@id='zjmms' or @id='zjmm']"
+		]
+	},
+	"oBtnTrade": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://btnYzzz"
+		]
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"oInputCode": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://zqdm"
+		]
+	},
+	"oPName": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://zqmc"
+		]
+	},
+	"oInputNum": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://volume"
+		]
+	},
+	"oInputPrice": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://price"
+		]
+	},
+	"oBtnWTFS": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div#delegation button"
+		]
+	},
+	"oLiDropDwon": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////div[@id='delegation']//li[text()='$']"
+		]
+	},
+	"oBtnTrade": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div.btn-bargain>button"
+		]
+	}
+}

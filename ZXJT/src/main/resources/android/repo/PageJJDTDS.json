@@ -1,0 +1,98 @@
+{
+	"oLiJJDT": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://ul#querySortTab>li"
+		]
+	},
+	"oLiJJDS": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://ul#querySortTab>li:nth-child(2)"
+		]
+	},
+	"oImgAdd": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div.emptyHint>img"
+		]
+	},
+	"oInputCode": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://zqdm"
+		]
+	},
+	"oLabelName": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div#d-zqmc>div:nth-child(2)>label"
+		]
+	},
+	"oInputNum": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://price"
+		]
+	},
+	"oBtnKKZQ": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div#d-jyrq>div:nth-child(2)>button"
+		]
+	},
+	"oDivMonth": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div.zqSort>div"
+		]
+	},
+	"oDivWeek": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div.zqSort>div:nth-child(2)"
+		]
+	},
+	"oLiKKZQ": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div.zqSort~div:not(.ng-hide)>li:nth-child($)"
+		]
+	},
+	"oBtnJEBZ": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div#d-zebs>div:nth-child(2)>button"
+		]
+	},
+	"oLiJEBZ": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////div[@id='d-zebs']//li[text()='$']"
+		]
+	},
+	"oInputKSRQ": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://ksrq"
+		]
+	},
+	"oInputZZRQ": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://zzrq"
+		]
+	},
+	"oBtnTrade": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://button.btn.btn-buy"
+		]
+	},
+	"oMsgRisk": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////td[text()='基金风险等级与客户等级不匹配,你是否要继续进行交易?']"
+		]
+	}
+}

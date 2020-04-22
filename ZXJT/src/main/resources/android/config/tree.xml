@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tree xmlns="http://up.light/navigator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:custom="http://up.light/mobile/zxjt/custom/attribute"
+	xsi:schemaLocation="http://up.light/navigator https://xinufo.github.io/xsd/light/navigator/navigator.xsd
+	http://up.light/mobile/zxjt/custom/attribute attribute.xsd">
+
+	<!-- 监听器 -->
+	<listeners>
+		<listener>mobile.zxjt.navigator.NavListenerImpl</listener>
+	</listeners>
+
+	<!-- 默认进入和退出动作 -->
+	<defaultActions>
+		<enter>mobile.zxjt.navigator.ClickAction</enter>
+		<exit>mobile.zxjt.navigator.ClickAction</exit>
+	</defaultActions>
+
+	<!-- 默认返回按钮定位信息 -->
+	<exitLocator>ToolBar.oBtnBack</exitLocator>
+
+	<nodes>
+		<node name="首页" enterLocator="Navigator1.oBtnSY" noBack="true" />
+		<node name="交易" enterLocator="Navigator1.oBtnJY" noBack="true">
+			<node name="普通交易" enterLocator="Navigator1.oBtnPTJY" noBack="true">
+				<node name="买入" enterLocator="Navigator1.oImgMR" custom:checkLogin="true" />
+				<node name="卖出" enterLocator="Navigator1.oImgMC" custom:checkLogin="true" />
+				<node name="银证转账" enterLocator="Navigator1.oLabelYZZZ" custom:checkLogin="true" />
+				<node name="更多" enterLocator="Navigator1.oImgGD">
+					<node name="资产查询" enterLocator="Navigator1.oLabelZCCX" custom:checkLogin="true" />
+					<node name="股份转让" enterLocator="Navigator2.oLableGFZR" custom:checkLogin="true">
+						<node name="定价买入" enterLocator="Navigator2.oLabelDJMR" />
+						<node name="定价卖出" enterLocator="Navigator2.oLabelDJMC" />
+						<node name="成交确认买入" enterLocator="Navigator2.oLabelCJQRMR" />
+						<node name="成交确认卖出" enterLocator="Navigator2.oLabelCJQRMC" />
+						<node name="互报确认买入" enterLocator="Navigator2.oLabelHBQRMR" />
+						<node name="互报确认卖出" enterLocator="Navigator2.oLabelHBQRMC" />
+						<node name="做市买入" enterLocator="Navigator2.oLabelZSMR" />
+						<node name="做市卖出" enterLocator="Navigator2.oLabelZSMC" />
+						<node name="限价买入" enterLocator="Navigator2.oLabelXJMR" />
+						<node name="限价卖出" enterLocator="Navigator2.oLabelXJMC" />
+					</node>
+				</node>
+				<node name="开放式基金" enterLocator="Navigator3.oLabelKFSJJ" custom:checkLogin="true">
+					<node name="申购" enterLocator="Navigator3.oLabelSG" />
+					<node name="赎回" enterLocator="Navigator3.oLabelSH" />
+					<node name="认购" enterLocator="Navigator3.oLabelRG" />
+					<node name="基金定投" enterLocator="Navigator3.oLabelJJDT" />
+					<node name="基金转换" enterLocator="Navigator3.oLabelJJZH" />
+					<node name="分红设置" enterLocator="Navigator3.oLabelFHSZ" />
+				</node>
+				<node name="ETF基金" enterLocator="Navigator3.oLabelETFJJ" custom:checkLogin="true">
+					<node name="网下现金认购" enterLocator="Navigator3.oLabelWXXJRG" />
+					<node name="网下股票认购" enterLocator="Navigator3.oLabelWXGPRG" />
+					<node name="ETF申购" enterLocator="Navigator3.oLabelETFSG" />
+					<node name="ETF赎回" enterLocator="Navigator3.oLabelETFSH" />
+				</node>
+				<node name="LOF基金" enterLocator="Navigator4.oLabelLOFJJ" custom:checkLogin="true">
+					<node name="LOF基金申购" enterLocator="Navigator4.oLabelJJSG" />
+					<node name="LOF基金赎回" enterLocator="Navigator4.oLabelJJSH" />
+					<node name="LOF基金认购" enterLocator="Navigator4.oLabelJJRG" />
+				</node>
+				<node name="港股通" enterLocator="Navigator4.oLabelGGT" custom:checkLogin="true">
+					<node name="港股通买入" enterLocator="Navigator4.oLabelMR" />
+					<node name="港股通卖出" enterLocator="Navigator4.oLabelMC" />
+					<node name="港股通资产查询" enterLocator="Navigator4.oLabelZCCX" />
+					<node name="回转资金" enterLocator="Navigator4.oLabelHZZJ" />
+					<node name="负债查询" enterLocator="Navigator4.oLabelFZCX" />
+					<node name="额度查询" enterLocator="Navigator4.oLabelEDCX" />
+					<node name="汇率查询" enterLocator="Navigator4.oLabelHLCX" />
+					<node name="未交收明细查询" enterLocator="Navigator4.oLabelWJSMXCX" />
+					<node name="标的证券" enterLocator="Navigator4.oLabelBDZQ" />
+					<node name="公司行为" enterLocator="Navigator4.oLabelGSXW" />
+					<node name="投票" enterLocator="Navigator4.oLabelTP" />
+				</node>
+			</node>
+			<node name="融资融券" enterLocator="Navigator5.oBtnRZRQ" noBack="true">
+				<node name="【两融】融资买入" enterLocator="Navigator5.oLabelRZMR" custom:checkLogin="true" />
+				<node name="【两融】融券卖出" enterLocator="Navigator5.oLabelRQMC" custom:checkLogin="true" />
+				<node name="【两融】担保品买入" enterLocator="Navigator5.oLabelDBPMR" custom:checkLogin="true" />
+				<node name="【两融】担保品卖出" enterLocator="Navigator5.oLabelDBPMC" custom:checkLogin="true" />
+				<node name="【两融】还款" enterLocator="Navigator5.oLabelHK" custom:checkLogin="true" />
+				<node name="【两融】还券" enterLocator="Navigator5.oLabelHQ" custom:checkLogin="true" />
+				<node name="【两融】银证转账" enterLocator="Navigator5.oLabelYZZZ" custom:checkLogin="true" />
+				<node name="【两融】查询" enterLocator="Navigator5.oLabelCX">
+					<node name="【两融】资产查询" enterLocator="Navigator5.oLabelZCCX" custom:checkLogin="true" />
+				</node>
+				<node name="【两融】担保品划转" enterLocator="Navigator5.oLabelDBPHZ" custom:checkLogin="true" />
+			</node>
+		</node>
+	</nodes>
+</tree>

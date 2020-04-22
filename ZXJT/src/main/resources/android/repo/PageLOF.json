@@ -1,0 +1,32 @@
+{
+	"oInputCode": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://input[id^=zqdm-input-]"
+		]
+	},
+	"oPName": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://p.kmc-zqdm-zqmc"
+		]
+	},
+	"oInputNum": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://wtjg-input"
+		]
+	},
+	"oBtnOK": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div.kmc-submit-button.kmc-btn-buy>button"
+		]
+	},
+	"oLabelSX": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[contains(text(), '上限')]/../following-sibling::div[2]/label"
+		]
+	}
+}

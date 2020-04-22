@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns="http://up.light/navigator" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://up.light/navigator" elementFormDefault="qualified">
+
+	<xsd:element name="tree">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="listeners" minOccurs="0" />
+				<xsd:element ref="defaultActions" />
+				<xsd:element name="exitLocator" type="xsd:string" />
+				<xsd:element ref="nodes" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="listeners">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="listener" type="xsd:string"
+					maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="defaultActions">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="enter" type="xsd:string" />
+				<xsd:element name="exit" type="xsd:string" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="nodes">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="node" maxOccurs="unbounded" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="node">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="node" minOccurs="0" maxOccurs="unbounded" />
+			</xsd:sequence>
+			<xsd:attribute name="name" type="xsd:string" use="required" />
+			<xsd:attribute name="enterLocator" type="xsd:string" use="required" />
+			<xsd:attribute name="exitLocator" type="xsd:string" use="optional" />
+			<xsd:attribute name="enterAction" type="xsd:string" use="optional" />
+			<xsd:attribute name="exitAction" type="xsd:string" use="optional" />
+			<xsd:attribute name="noBack" type="xsd:boolean" default="false" />
+			<xsd:anyAttribute namespace="##any" processContents="strict" />
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

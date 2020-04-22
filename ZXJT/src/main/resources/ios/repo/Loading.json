@@ -1,0 +1,8 @@
+{
+	"oDivLoading": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://loading"
+		]
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"oImgJH": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div.right>img"
+		]
+	},
+	"oInputNum": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://zcje"
+		]
+	},
+	"oBtnOK": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://button.btn.btn-red"
+		]
+	},
+	"oInputPwd": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://zjmm"
+		]
+	}
+}

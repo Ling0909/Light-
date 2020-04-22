@@ -1,0 +1,20 @@
+{
+	"oLabelKQ": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////div[@class='kmc kmc-hzzjcx'][4]/div[2]/label"
+		]
+	},
+	"oLabelKY": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////div[@class='kmc kmc-hzzjcx'][5]/div[2]/label"
+		]
+	},
+	"oLabelYE": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////div[@class='kmc kmc-hzzjcx'][6]/div[2]/label"
+		]
+	}
+}

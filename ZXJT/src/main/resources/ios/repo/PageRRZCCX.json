@@ -1,0 +1,20 @@
+{
+	"oSpanKY": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////span[text()='可用']/following-sibling::span[1]"
+		]
+	},
+	"oSpanKQ": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////span[text()='可取']/following-sibling::span[1]"
+		]
+	},
+	"oSpanYE": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////span[text()='余额']/following-sibling::span[1]"
+		]
+	}
+}

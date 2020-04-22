@@ -1,0 +1,20 @@
+{
+	"oTextMsgs": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://tr.single.ng-scope>td"
+		]
+	},
+	"oBtnOK": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://button.btn.btn-ensure"
+		]
+	},
+	"oBtnCancel": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////button[text()='取消']"
+		]
+	}
+}

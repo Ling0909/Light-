@@ -1,0 +1,98 @@
+{
+	"oLabelLOFJJ": {
+		"context": "WEBVIEW[url.pattern(.+ptjy_(header|index).html)]",
+		"bys": [
+			"xpath:////label[text()='LOF基金']"
+		]
+	},
+	"oLabelJJSG": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='基金申购']"
+		]
+	},
+	"oLabelJJSH": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='基金赎回']"
+		]
+	},
+	"oLabelJJRG": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='基金认购']"
+		]
+	},
+	"oLabelGGT": {
+		"context": "WEBVIEW[url.pattern(.+ptjy_(header|index).html)]",
+		"bys": [
+			"xpath:////label[text()='港股通']"
+		]
+	},
+	"oLabelMR": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='买入']"
+		]
+	},
+	"oLabelMC": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='卖出']"
+		]
+	},
+	"oLabelZCCX": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='资产查询']"
+		]
+	},
+	"oLabelHZZJ": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='回转资金']"
+		]
+	},
+	"oLabelFZCX": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='负债查询']"
+		]
+	},
+	"oLabelEDCX": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='额度查询']"
+		]
+	},
+	"oLabelHLCX": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='汇率查询']"
+		]
+	},
+	"oLabelWJSMXCX": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='未交收明细查询']"
+		]
+	},
+	"oLabelBDZQ": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='标的证券']"
+		]
+	},
+	"oLabelGSXW": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='公司行为']"
+		]
+	},
+	"oLabelTP": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='投票']"
+		]
+	}
+}

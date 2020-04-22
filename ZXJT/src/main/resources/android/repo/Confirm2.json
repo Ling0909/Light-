@@ -1,0 +1,20 @@
+{
+	"oTextMsgs": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div.kmc-alertDialog-content label"
+		]
+	},
+	"oBtnOK": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div.kmc-alertDialog-button td.ok>button"
+		]
+	},
+	"oBtnCancel": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div.kmc-alertDialog-button td.cancel>button"
+		]
+	}
+}

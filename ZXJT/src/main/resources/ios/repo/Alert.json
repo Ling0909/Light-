@@ -1,0 +1,14 @@
+{
+	"oTextMsg": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://tr.msg>td"
+		]
+	},
+	"oBtnOK": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://button.btn.btn-ensure"
+		]
+	}
+}

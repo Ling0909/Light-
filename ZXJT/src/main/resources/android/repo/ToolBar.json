@@ -1,0 +1,20 @@
+{
+	"oBtnBack": {
+		"context": "NATIVE_APP",
+		"bys": [
+			"id://abs__home_svgicon"
+		]
+	},
+	"oImgInit": {
+		"context": "NATIVE_APP",
+		"bys": [
+			"id://img_init"
+		]
+	},
+	"oBtnMsg": {
+		"context": "NATIVE_APP",
+		"bys": [
+			"id://SureButton"
+		]
+	}
+}

@@ -1,0 +1,68 @@
+{
+	"oBtnRZRQ": {
+		"context": "NATIVE_APP",
+		"bys": [
+			"id://right_text"
+		]
+	},
+	"oLabelRZMR": {
+		"context": "WEBVIEW[url.pattern(.+rzrq_(header|index).html)]",
+		"bys": [
+			"xpath:////label[text()='融资买入']"
+		]
+	},
+	"oLabelRQMC": {
+		"context": "WEBVIEW[url.pattern(.+rzrq_(header|index).html)]",
+		"bys": [
+			"xpath:////label[text()='融券卖出']"
+		]
+	},
+	"oLabelDBPMR": {
+		"context": "WEBVIEW[url.pattern(.+rzrq_(header|index).html)]",
+		"bys": [
+			"xpath:////label[text()='担保物买入']"
+		]
+	},
+	"oLabelDBPMC": {
+		"context": "WEBVIEW[url.pattern(.+rzrq_(header|index).html)]",
+		"bys": [
+			"xpath:////label[text()='担保物卖出']"
+		]
+	},
+	"oLabelHK": {
+		"context": "WEBVIEW[url.pattern(.+rzrq_(header|index).html)]",
+		"bys": [
+			"xpath:////label[text()='还款']"
+		]
+	},
+	"oLabelHQ": {
+		"context": "WEBVIEW[url.pattern(.+rzrq_(header|index).html)]",
+		"bys": [
+			"xpath:////label[text()='还券']"
+		]
+	},
+	"oLabelYZZZ": {
+		"context": "WEBVIEW[url.pattern(.+rzrq_(header|index).html)]",
+		"bys": [
+			"xpath:////label[text()='银证转账']"
+		]
+	},
+	"oLabelCX": {
+		"context": "WEBVIEW[url.pattern(.+rzrq_(header|index).html)]",
+		"bys": [
+			"xpath:////label[text()='查询']"
+		]
+	},
+	"oLabelZCCX": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////label[text()='资产查询']"
+		]
+	},
+	"oLabelDBPHZ": {
+		"context": "WEBVIEW[url.pattern(.+rzrq_(header|index).html)]",
+		"bys": [
+			"xpath:////label[text()='担保物划转']"
+		]
+	}
+}

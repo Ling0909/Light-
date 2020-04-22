@@ -1,0 +1,38 @@
+{
+	"oInputCode": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://zqdm"
+		]
+	},
+	"oLabelName": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://zqmc"
+		]
+	},
+	"oLabelJJJZ": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://jjdwjz"
+		]
+	},
+	"oBtnFHFS": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div.btn-group.select>button"
+		]
+	},
+	"oLiFHFS": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////div[@class='btn-group select']/ul/li[text()='$']"
+		]
+	},
+	"oBtnSH": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://button.btn.btn-buy"
+		]
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"oInputUsername": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://khbz"
+		]
+	},
+	"oInputPassword": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://jymm"
+		]
+	},
+	"oInputVertifyCode": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://vertifyCode"
+		]
+	},
+	"oLabelVertifyCode": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://checkCode"
+		]
+	},
+	"oBtnLogin": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://login-button"
+		]
+	}
+}

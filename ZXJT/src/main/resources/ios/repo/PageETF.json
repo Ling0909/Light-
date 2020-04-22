@@ -1,0 +1,50 @@
+{
+	"oInputETFCode": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://input[id^=zqdm-input-]"
+		]
+	},
+	"oPETFName": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://input[id^=zqdm-input-]+p"
+		]
+	},
+	"oInputNum": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"id://wtjg-input"
+		]
+	},
+	"oBtnOK": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div.kmc-submit-button>button"
+		]
+	},
+	"oInputCFGCode": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath://(//input[contains(@id, 'zqdm-input-')])[2]"
+		]
+	},
+	"oPCFGName": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath://(//p[@class='kmc-zqdm-zqmc'])[2]"
+		]
+	},
+	"oDivETFSC": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"CSSSELECTOR://div.kmc-dbqdxlsz-downMenu-label"
+		]
+	},
+	"oLiETFSC": {
+		"context": "WEBVIEW[-1]",
+		"bys": [
+			"xpath:////div[@class='kmc-downMenu']//li[text()='$']"
+		]
+	}
+}
